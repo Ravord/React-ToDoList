@@ -3,6 +3,8 @@ import { useEffect, useRef, useState } from 'react'
 import ToDoForm from './ToDoForm.jsx'
 import ToDoEntries from './ToDoEntries.jsx'
 import './style.css'
+import './media.css'
+import './theme.css'
 
 export default function ToDoList() {
   let [darkMode, setDarkMode] = useState(() => JSON.parse(localStorage.getItem('darkMode')) || false)

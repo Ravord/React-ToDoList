@@ -1,0 +1,9 @@
+:root {
+  --primary-color: white;
+  --secondary-color: black;
+}
+
+.dark-mode {
+  --primary-color: hsl(0, 0%, 15%);
+  --secondary-color: hsl(0, 0%, 85%);
+}

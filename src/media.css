@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .dark-mode-switch {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .todolist {
+    height: 80%;
+    width: 80%;
+  }
+  input[type='text'] {
+    width: 80%;
+  }
+  button {
+    width: 40%;
+  }
+}
