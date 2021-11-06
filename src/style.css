@@ -1,6 +1,6 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
+  margin: 0%;
 }
 
 .container {
@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  transition: background-color 0.2s ease;
 }
 
 .dark-mode-switch {
@@ -38,12 +39,12 @@ i {
 }
 
 .title h1 {
-  margin: 0;
+  margin: 0%;
 }
 
 .title hr {
   border: 0.125rem dotted var(--secondary-color);
-  margin: 0;
+  margin: 0%;
 }
 
 .title b {
@@ -59,8 +60,8 @@ i {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
 }
 
 li {
