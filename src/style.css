@@ -32,6 +32,10 @@ i {
   width: 50%;
 }
 
+.todolist::-webkit-scrollbar {
+  display: none;
+}
+
 .title {
   color: var(--secondary-color);
   margin-bottom: 1.5rem;
