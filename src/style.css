@@ -48,7 +48,7 @@ i {
 
 .title hr {
   border: none;
-  border-bottom: 0.125rem dotted var(--secondary-color);
+  border-bottom: dotted var(--secondary-color);
   margin: 0%;
 }
 
